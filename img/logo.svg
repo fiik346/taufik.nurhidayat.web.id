@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 272.2467 75.93335"
+   height="75.93335mm"
+   width="272.2467mm">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipPath1061"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         style="opacity:1;fill:#00aa88;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
+         id="rect1063"
+         width="880.67279"
+         height="544.28571"
+         x="-438.44028"
+         y="633.97577" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(122.46178,-1358.3248)"
+     id="layer1">
+    <g
+       id="logo"
+       transform="matrix(0.78895148,0,0,0.78895148,166.50772,572.00522)">
+      <g
+         id="g1550"
+         transform="matrix(0.3719701,0,0,0.3719701,-533.16994,721.79158)"
+         style="fill:#3771c8;fill-opacity:1">
+        <g
+           id="g1542"
+           style="fill:#3771c8;fill-opacity:1">
+          <path
+             id="path1538"
+             transform="matrix(0.90157977,0,0,0.90157977,865.98509,-3889.5898)"
+             d="m -462.84766,5133.8262 v 38.5703 158.3027 51.5488 c 0,21.3678 17.20262,38.5704 38.57032,38.5704 21.36772,0 38.57031,-17.2026 38.57031,-38.5704 v -51.5488 -119.7324 h 79.97461 c 21.36772,0 38.57031,-17.2026 38.57031,-38.5703 0,-21.3677 -17.20259,-38.5703 -38.57031,-38.5703 h -79.97461 -38.57031 z m 263.02344,0 c -21.36773,0 -38.57031,17.2026 -38.57031,38.5703 v 50.3086 84.9531 l -1.85938,-1.9961 -38.23047,-41.0332 -10.57226,-11.3496 c -7.28289,-7.8169 -17.00242,-11.9406 -26.85547,-12.2891 -9.85302,-0.3484 -19.83934,3.0785 -27.65625,10.3614 -15.63378,14.5658 -16.49356,38.8779 -1.92773,54.5117 l 10.57226,11.3496 70.23633,75.3848 26.29297,28.2207 h 38.57031 38.56836 v -38.5704 -159.5429 -50.3086 c 0,-21.3677 -17.20067,-38.5703 -38.56836,-38.5703 z"
+             style="opacity:1;fill:#3273dc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.37780324;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+        <g
+           transform="translate(-2.078869)"
+           id="g1548"
+           style="fill:#3771c8;fill-opacity:1" />
+      </g>
+      <text
+         id="text1556"
+         y="1036.351"
+         x="-252.13699"
+         style="font-style:normal;font-weight:normal;font-size:34.41507721px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.86037701"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa Bold';stroke-width:0.86037701"
+           y="1036.351"
+           x="-252.13699"
+           id="tspan1552">TAUFIK</tspan><tspan
+           id="tspan1554"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa Bold';stroke-width:0.86037701"
+           y="1079.5508"
+           x="-252.13699">NURHIDAYAT</tspan></text>
+    </g>
+  </g>
+</svg>
