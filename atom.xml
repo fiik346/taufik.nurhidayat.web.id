@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Taufik Nurhidayat</title>
+  
+  <subtitle>Make your day like cloud</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://taufik.nurhidayat.web.id/"/>
+  <updated>2020-04-12T13:53:32.235Z</updated>
+  <id>https://taufik.nurhidayat.web.id/</id>
+  
+  <author>
+    <name>Taufik Nurhidayat</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Taufik Nurhidayat Logo</title>
+    <link href="https://taufik.nurhidayat.web.id/2020/04/taufik-nurhidayat-logo.html"/>
+    <id>https://taufik.nurhidayat.web.id/2020/04/taufik-nurhidayat-logo.html</id>
+    <published>2020-04-12T20:14:50.000Z</published>
+    <updated>2020-04-12T13:53:32.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>Aku membuat logo dari namaku sendiri “Taufik Nurhidayat”. Logo ini terlihat simpel dan modern.</p><a id="more"></a><h2 id="1">Digunakan Untuk</h2><p/>- Business Card<br/>- Web Logo<br/>- Branding<h2 id="2">Filosofi dan Pembuatan Logo</h3><img src="/img/taufik-nurhidayat-filosofi.png" alt="Taufik Nurhidayat Logo"/>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Aku membuat logo dari namaku sendiri “Taufik Nurhidayat”. Logo ini terlihat simpel dan modern.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Logo" scheme="https://taufik.nurhidayat.web.id/categories/Logo/"/>
+    
+    
+      <category term="Blue" scheme="https://taufik.nurhidayat.web.id/tags/Blue/"/>
+    
+      <category term="Simple" scheme="https://taufik.nurhidayat.web.id/tags/Simple/"/>
+    
+      <category term="Professional" scheme="https://taufik.nurhidayat.web.id/tags/Professional/"/>
+    
+  </entry>
+  
+</feed>
