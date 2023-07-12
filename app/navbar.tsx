@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import brand from "@/public/brand.svg";
+const brand = require("./icon.svg")
 
 import { Bars2Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
