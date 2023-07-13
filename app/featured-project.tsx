@@ -10,12 +10,12 @@ export default function FeaturedProject() {
     },
   ];
   return (
-    <div className="my-10">
+    <div className="mt-12">
       <h2 className="text-2xl font-bold text-slate-700" id="featured-project">
         Featured Project
       </h2>
       <div className="mt-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
           {data.map((item, i: number) => (
             <div className="group relative" key={i}>
               <Image

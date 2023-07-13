@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-const brand = require("./icon.svg")
+const brand = require("./icon.svg");
 
 import { Bars2Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
@@ -54,8 +54,10 @@ export default function Navbar() {
   }
   return (
     <>
-      <header className={`sticky top-0 bg-white ${hidePart ? "shadow" : null}`}>
-        <nav className="flex gap-4 items-center container px-8 py-4 mx-auto text-slate-600">
+      <header
+        className={`sticky top-0 z-10 bg-white ${hidePart ? "shadow" : null}`}
+      >
+        <nav className="flex gap-4 items-center container px-4 py-4 mx-auto text-slate-600">
           <Link
             href="/"
             className="flex items-center text-2xl uppercase font-bold"
@@ -99,7 +101,7 @@ export default function Navbar() {
       >
         <div className="flex mt-2">
           <button
-            className="px-8 py-4 ml-auto"
+            className="px-4 py-4 ml-auto"
             onClick={() => setOpenMenu(false)}
           >
             <XMarkIcon className="w-6 h-6" />
