@@ -3,7 +3,7 @@ export default function ProjectButton() {
     <div className="my-20">
       <div className="bg-slate-100 md:flex items-center p-8">
         <div className="text-xl font-bold text-slate-600 text-center md:text-left">
-          Tertarik bekerja dengan saya?
+          Tertarik dengan pekerjaan saya?
         </div>
         <div className="ml-auto mt-8 md:mt-0 flex justify-center gap-4 md:w-auto text-sm">
           <button className="duration-300 inline-flex items-center px-4 py-3 rounded text-primary-500 border border-primary-500">

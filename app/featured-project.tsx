@@ -1,14 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-
-export default function FeaturedProject() {
-  const data = [
-    {
-      title: "Nurhidayat",
-      cover: "/nurhidayat/cover.png",
-      url: "/project/nurhidayat",
-    },
-  ];
+interface DataInterface {
+  title: string;
+  cover: string;
+  url: string;
+}
+export default function FeaturedProject({ data }: { data: DataInterface[] }) {
   return (
     <div className="mt-12">
       <h2 className="text-2xl font-bold text-slate-700" id="featured-project">
@@ -27,7 +24,7 @@ export default function FeaturedProject() {
               />
               <Link
                 aria-hidden="true"
-                href="/"
+                href={item.url}
                 className="opacity-0 group-hover:opacity-100 duration-300 ease-in-out flex absolute w-full bg-black/50 h-full top-0 left-0 items-center justify-center"
               >
                 <span className="text-white font-semibold px-4 py-3 rounded border border-white">

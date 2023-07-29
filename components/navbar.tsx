@@ -34,8 +34,14 @@ export default function Navbar() {
     },
   ];
 
+  const handleMenu = () => {
+    setOpenMenu(!openMenu);
+    document.documentElement.classList.toggle("overflow-hidden");
+  };
+
   useEffect(() => {
     setOpenMenu(false);
+    document.documentElement.classList.remove("overflow-hidden");
     function listener() {
       if (scrollY > 128) {
         setHidePart(true);
@@ -46,11 +52,6 @@ export default function Navbar() {
     document.addEventListener("scroll", listener);
     return () => document.removeEventListener("scroll", listener);
   }, [path]);
-  if (openMenu) {
-    document.documentElement.classList.add("overflow-hidden");
-  } else {
-    document.documentElement.classList.remove("overflow-hidden");
-  }
   return (
     <>
       <header
@@ -61,17 +62,11 @@ export default function Navbar() {
             href="/"
             className="flex items-center text-2xl uppercase font-bold"
           >
-            {/*
-            <span>
-              <span>Taufik</span> <br />
-              <span>Nurhidayat</span>
-            </span>
-						*/}
             <Image src={brand} alt="Taufik Nurhidayat" className="w-10" />
           </Link>
           <button
             aria-label="Menu"
-            onClick={() => setOpenMenu(!openMenu)}
+            onClick={() => handleMenu()}
             className="flex p-2 notap lg:hidden ml-auto -mr-2"
             aria-expanded={openMenu}
             aria-haspopup="true"
@@ -79,7 +74,7 @@ export default function Navbar() {
           >
             <Bars2Icon className="w-6 h-6" />
           </button>
-          <ul className="hidden lg:flex ml-auto">
+          <ul className="hidden lg:flex ml-auto text-lg">
             {navigations.map((item, i) => (
               <li key={i}>
                 <Link
@@ -99,10 +94,7 @@ export default function Navbar() {
         }`}
       >
         <div className="flex mt-2">
-          <button
-            className="px-4 py-4 ml-auto"
-            onClick={() => setOpenMenu(false)}
-          >
+          <button className="px-4 py-4 ml-auto" onClick={() => handleMenu()}>
             <XMarkIcon className="w-6 h-6" />
           </button>
         </div>
