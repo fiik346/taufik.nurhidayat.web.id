@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="90"
+   height="95"
+   version="1.1"
+   viewBox="0 0 90 95"
+   id="svg4"
+   sodipodi:docname="newicon.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.67368421"
+     inkscape:cx="118.75"
+     inkscape:cy="34.140625"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <g
+     transform="translate(-15,-12.5)"
+     fill="#f2f2f2"
+     id="g4"
+     style="fill:#3b82f6;fill-opacity:1">
+    <path
+       d="m105 27.5v-15h-40v95l15-15v-65z"
+       id="path1"
+       style="fill:#3b82f6;fill-opacity:1" />
+    <path
+       d="m90 37.5h15v32.5l-15 15z"
+       id="path2"
+       style="fill:#3b82f6;fill-opacity:1" />
+    <path
+       d="m15 27.5v-15h40v95l-15-15v-65z"
+       id="path3"
+       style="fill:#3b82f6;fill-opacity:1" />
+    <path
+       d="m30 37.5h-15v32.5l15 15z"
+       id="path4"
+       style="fill:#3b82f6;fill-opacity:1" />
+  </g>
+</svg>

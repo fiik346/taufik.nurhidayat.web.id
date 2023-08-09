@@ -26,6 +26,10 @@ export default function Footer() {
       title: "Connect",
       items: [
         {
+          title: "Blog",
+          href: "https://www.nurhidayat.web.id",
+        },
+        {
           title: "Facebook",
           href: "https://facebook.com/fik346",
         },

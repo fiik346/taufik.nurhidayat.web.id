@@ -17,4 +17,16 @@
       linear-gradient(315deg, #3b82f655 25%, transparent 25%) 0px 0/ 20px 20px,
       linear-gradient(45deg, #3b82f6 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
   }
+  *::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+  *::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    @apply bg-gray-300;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400;
+  }
 }

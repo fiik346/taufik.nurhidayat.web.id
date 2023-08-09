@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import brand from "../app/icon.svg";
+import brand from "@/app/icon.svg";
 
 import { Bars2Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
@@ -26,11 +26,11 @@ export default function Navbar() {
     },
     {
       title: "Project",
-      href: "#project",
+      href: "/project",
     },
     {
       title: "Contact",
-      href: "#contact",
+      href: "/contact",
     },
   ];
 
